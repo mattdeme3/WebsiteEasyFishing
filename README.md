@@ -7,6 +7,3 @@ git push -u origin master
 git ready
 git init
 echo #NMDAD-I-1617
-# NMDAD-I-1617
-# NMDAD-I-1617
-# NMDAD-I-1617
