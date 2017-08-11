@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  
+<head>
+    <link rel="stylesheet" href="CSS/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/grid.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type = "text/css" href="CSS/menu.css">
+    <link rel="stylesheet" href="leaflet/leaflet.css" rel="stylesheet">
+    <link href="CSS/Oefn.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+<ul class="hoofdnav" id="Navigatie">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Vissersplaatsen.html">Vissersplaatsen</a></li>
+    <li><a href="Parkeerplaatsen.html">Parkeerplaatsen</a></li>
+    <li><a href="weer.html">Weer</a></li>
+    <li><a href="Soorten.html">Soort vis</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li class="icon">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="showMenu()">☰</a>
+    </li>
+</ul>
+</nav>
+
+
+  <body>
+    <section class="page-wrapper">
+      <div class = "grid__bp0-column-12 main">
+    <div class = "grid__bp0-column-12 weervandaag">
+<div class = "grid__bp0-column-6">
+    <img src="img/weer%20iconen/cloudy.png" alt="" class = grid__bp0-column-12 id="weerIcoonVndg">
+        <h4 class="grid__bp0-column-12" id = "gradenVndg">##'C</h4>
+        <h5 class = grid__bp0-column-7 id="gradenVndgNacht">##'C</h5>
+</div>
+        <div class="grid__bp0-column-6"><h2 id = "windrichting">NW</h2>
+        <p id = "windsnelheidVndg" class = grid__bp0-column-12>windsnelheid</p></div>
+    </div>
+
+    <Div class = grid__bp0-column-12>
+        <ul class = "grid__bp0-column-12 weerbericht">
+            <li class="grid__bp0-column-12" >Morgen</li>
+            <li class="grid__bp0-column-2"><img class=weericoon src="img/weer%20iconen/cloudy.png"  id = "forcastM" alt=""></li>
+            <li class="grid__bp0-column-3" Id = "gradenMorgen" >16</li>
+            <li class="grid__bp0-column-2"><img class=weericoon   src="img/weer%20iconen/light%20clouds%20night.png" id = "forcastMn"alt=""></li>
+            <li class="grid__bp0-column-3" id="gradenMorgenN">8</li>
+            <li class="grid__bp0-column-2"><p id="windrichtingM">NO</p></li>
+        </ul>
+
+        <ul class = "grid__bp0-column-12 weerbericht">
+            <li class="grid__bp0-column-12">Overmorgen</li>
+            <li class="grid__bp0-column-2"><img class=weericoon src="img/weer%20iconen/cloudy.png" Id = "forcastO" alt=""></li>
+            <li class="grid__bp0-column-3" Id = "gradenOverM">16</li>
+            <li class="grid__bp0-column-2"><img class=weericoon src="img/weer%20iconen/light%20clouds%20night.png" Id = "forcastOn" alt=""></li>
+            <li class="grid__bp0-column-3" Id = "gradenOverMn">8</li>
+            <li class="grid__bp0-column-2"><p id="windrichtingO">NW</p></li>
+        </ul>
+
+
+
+    </Div>
+</div>
+
+
+
+
+<script src = JS/main.js>
+
+</script>
+<script src = JS/weer.js>
+</script>
+</body>
+</html>
+    </section>
+  </body>
+
+  <footer>
+<div class = "grid__bp0-column-12 bottom">
+    <a href="" class = grid__bp0-column-4> <img src="img/Facebook.png" class = "footerimg" alt="" >facebook/EasyFishing</a>
+
+    <a href="" class = grid__bp0-column-4> <img src="img/Twitter.png"  class = "footerimg" alt="">twitter/EasyFishing</a>
+
+    <a href="" class = grid__bp0-column-4><img src="img/Instagram.png" class = "footerimg" alt="" >instagram/EasyFishing</a>
+
+</div>
+</footer>
+<script src = JS/main.js></script>
+ <script src="/JS/jquery-3.1.1.js"></script>
+    <script src="leaflet/leaflet.js"></script>
+    <script src="JS/VissersplaatsenJSON.js"></script>
+    <script src="JS/mapVisplaatsen.js"></script>  
+</html>

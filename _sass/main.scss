@@ -1,0 +1,236 @@
+$Blauw: #6182d8;
+$Donkerblauw: #1e468c;
+$Groen: #6ba51f; 
+$Oranje: #de8526;
+$Wit: #FFF;
+
+    
+body{
+    background-color: $Blauw;
+    font-family: Arial;
+    color: $Wit;
+}
+
+a{;
+    text-decoration: none;
+    color: $Wit;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+
+nav{
+    z-index: 2;
+    position: absolute;
+    font-size: 5px;
+ //   background-color: $Donkerblauw;
+}
+.head{
+    background-color: $Donkerblauw;
+    font-weight: 100;
+    margin: 0 0 2% 0;
+}
+.main{
+    align-content: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+
+.bottom{
+    background-color: $Donkerblauw;
+    align-self: baseline;
+    font-size: 7pt;
+   padding:0;
+}
+.uitleg{
+    margin:auto;
+    margin-top: 12vw;
+    margin-bottom: 70px;
+}
+.div__uitleg{
+    background-color: $Groen;
+    height:35vw;
+    width: 35vw;
+    align-content: center;
+    padding: auto;
+    margin-left: 30px;
+
+}
+
+.img__home{
+    height:35vw;
+    width: 35vw;
+    margin-right: 30px;
+}
+
+.div__warning{
+    background-color: $Oranje;
+    margin: 2% 0;
+
+}
+
+.blok{
+    background-color: $Groen;
+    height:auto;
+    align-content: center;
+    padding: auto;
+
+}
+
+ul{
+    .weerbericht{
+    background-color: $Groen;
+    list-style: none;
+    align-content: center;
+    height: 15%;
+    margin: 1px;
+    padding:20px 2px 20px 2px;
+    }
+}
+
+.weervandaag{
+    margin:5px 0 10px 0;
+}
+
+
+.weericoon{
+
+}
+
+.AboveInfo{
+    z-index: 1;
+    opacity: 0.8;
+    background-color: $Blauw;
+    padding-top: 22.5%;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    font-size : 2vw;
+    margin: 25% 25% 0 22.5%;
+        -webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+}
+.AboveInfo:hover{
+    opacity: 0;
+    font-size: 2.5vw;
+}
+
+
+
+.AboveInfo>p {
+    font-size : 10vw;
+}
+.image {
+    position: relative;
+}
+.foto {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    float: left;
+    height : 45.083vw;
+}
+.infoVPlaats {
+    text-align: center;
+    margin: 0;
+    padding: 2.5%;
+    margin-top: 2%;
+    height : 45.083vw;
+    width: 100%;
+    background-color: $Groen;
+    float: left;
+}
+.infoVPlaatshoofd {
+    text-align: center;
+    padding: 5%;
+    margin-top: 2%;
+    height : 20vw;
+}
+.LinkBelow{
+    font-size: 1.5vw;
+    padding-top:2%;
+    text-align: center;
+   color: white;
+}
+
+.Linkfoto{
+}
+.knop {
+    margin-left: 40%;
+    margin-top:10%;
+    float: left;
+    background-color: red;
+
+}
+.submitbutton{
+    color: $Wit;
+    background-color: $Groen;
+}
+
+
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index: 2;
+}
+.fotoVis{
+        width: 100%;
+    float: left;
+    height :  45.083vw;
+}
+.AboveInfoVis{
+    z-index: 1;
+    opacity: 0.8;
+    background-color: $Blauw;
+    padding: 10%;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    font-size : 2vw;
+    color:  $Wit;
+    margin: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+}
+
+.AboveInfoVis:hover{
+    opacity: 1;
+     padding: 8%;
+    font-size: 3.5vw;    
+    width: 75%;
+    left: 12.5%;
+}
+
+.Slide{
+    width: 100%;
+}
+
+.footerimg{
+     width:4vw;
+    height:4vw;
+    float:left;
+    
+    a{
+        text-decoration: none;
+    }
+}
+.footer {
+    a{
+        font-size: 4vw;
+    }
+}
