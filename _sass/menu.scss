@@ -7,16 +7,16 @@ body {
     
 ul{
     
-    hoofdnav{
+    hoofdnav {
         
             life-style-type: none;
-            margin: 0;
+            margin: 100px;
             padding: 0;
             overflow: hidden;
-            background-color: rgb(30,70,140);
+            background-color: $donkerblauw;
                 li{
                     
-                    float: left
+                    float: left;
                 
                     a{
                         

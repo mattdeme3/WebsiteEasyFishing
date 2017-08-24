@@ -1,24 +1,26 @@
 $Blauw: #6182d8;
+$AchterGrond: #FFF6CB;
 $Donkerblauw: #1e468c;
 $Groen: #6ba51f; 
-$Oranje: #de8526;
+$Blauw_Uitleg: #6FA6BD;
+$DonkerGeel: #C7C090;
 $Wit: #FFF;
+$StaalBlauw: #7B68EE;
+$Blauw_Blok: #7DBED4;
+$InfoVPlaats: #81C3DB;
 
-    
+
 body{
-    background-color: $Blauw;
+    background-color: $AchterGrond;
     font-family: Arial;
     color: $Wit;
 }
 
-a{;
+a{
     text-decoration: none;
     color: $Wit;
-    padding: 0;
 }
-img{
-    width: 100%;
-}
+
 p{
     text-align: center;
 }
@@ -27,7 +29,7 @@ nav{
     z-index: 2;
     position: absolute;
     font-size: 5px;
- //   background-color: $Donkerblauw;
+    background-color: $Donkerblauw;
 }
 .head{
     background-color: $Donkerblauw;
@@ -42,18 +44,16 @@ nav{
 
 
 .bottom{
-    background-color: $Donkerblauw;
+    background-color: $Blauw;
     align-self: baseline;
     font-size: 7pt;
    padding:0;
 }
 .uitleg{
-    margin:auto;
     margin-top: 12vw;
-    margin-bottom: 70px;
 }
 .div__uitleg{
-    background-color: $Groen;
+    background-color: $Blauw_Uitleg;
     height:35vw;
     width: 35vw;
     align-content: center;
@@ -69,9 +69,14 @@ nav{
 }
 
 .div__warning{
-    background-color: $Oranje;
+    background-color: $DonkerGeel;
     margin: 2% 0;
-
+    padding: 1%;
+    border-radius: 10px;
+    
+    p{
+    font-size: 18px;
+    }
 }
 
 .blok{
@@ -103,56 +108,70 @@ ul{
 }
 
 .AboveInfo{
+    
     z-index: 1;
-    opacity: 0.8;
-    background-color: $Blauw;
-    padding-top: 22.5%;
+    opacity: 1;
+    background-color: $InfoVPlaats;
+    padding-top: 15%;
     position: absolute;
     text-align: center;
     width: 50%;
     height: 50%;
     font-size : 2vw;
     margin: 25% 25% 0 22.5%;
-        -webkit-transition: all 0.3s ease-in-out;
--moz-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    
 }
+
 .AboveInfo:hover{
     opacity: 0;
     font-size: 2.5vw;
-}
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    
+    }
 
-
-
-.AboveInfo>p {
-    font-size : 10vw;
-}
 .image {
     position: relative;
 }
+
 .foto {
-    width: 100%;
-    float: left;
-    margin-top: 2%;
-    float: left;
+    width: 100%;    
+    margin: 2% 0;
+    float: left ;
     height : 45.083vw;
 }
+
+.Logo {
+    width: 100%;    
+    margin-top: 25%;
+    float: left;
+}
+
 .infoVPlaats {
     text-align: center;
-    margin: 0;
-    padding: 2.5%;
-    margin-top: 2%;
+    padding: 15% 2%;
+    margin: 2% 0;
     height : 45.083vw;
     width: 100%;
-    background-color: $Groen;
+    background-color: $InfoVPlaats;
     float: left;
+    
+    p{
+        margin-top: 12vw;
+    }
+    
 }
 .infoVPlaatshoofd {
     text-align: center;
     padding: 5%;
     margin-top: 2%;
     height : 20vw;
+    background-color: $Blauw_Uitleg;
 }
 .LinkBelow{
     font-size: 1.5vw;
@@ -172,26 +191,36 @@ ul{
 }
 .submitbutton{
     color: $Wit;
-    background-color: $Groen;
+    background-color: $Blauw;
 }
 
 
 footer{
-    position:fixed;
+    position: fixed;
     left:0;
     bottom:0;
     width:100%;
     z-index: 2;
+    background-color: $Blauw;
+    text-align: center;
+    padding: 0.5%;
+    
+      a{
+        font-size: 1vw;
+        text-align: left;
+    }
 }
 .fotoVis{
         width: 100%;
-    float: left;
     height :  45.083vw;
+    margin: 1% 0;
 }
+
 .AboveInfoVis{
+    
     z-index: 1;
     opacity: 0.8;
-    background-color: $Blauw;
+    background-color: $InfoVPlaats;
     padding: 10%;
     position: absolute;
     text-align: center;
@@ -202,18 +231,19 @@ footer{
     font-size : 2vw;
     color:  $Wit;
     margin: 0;
-    -webkit-transition: all 0.3s ease-in-out;
--moz-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
 }
 
 .AboveInfoVis:hover{
-    opacity: 1;
-     padding: 8%;
+    opacity: 0;
     font-size: 3.5vw;    
-    width: 75%;
-    left: 12.5%;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
 }
 
 .Slide{
@@ -221,16 +251,28 @@ footer{
 }
 
 .footerimg{
-     width:4vw;
-    height:4vw;
-    float:left;
+    
+    width:3vw;
+    height:3vw;
+    float:left; 
     
     a{
         text-decoration: none;
+        padding-top:5%;
     }
 }
-.footer {
-    a{
-        font-size: 4vw;
-    }
+
+#mapid {
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.Info {
+    background-color: $DonkerGeel;
+    width: 100%;
+    margin: 2% 0;
+    padding: 1%;
+    border-radius: 10px;
+    float: left;
+    
 }

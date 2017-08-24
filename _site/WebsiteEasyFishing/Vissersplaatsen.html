@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/grid.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type = "text/css" href="CSS/menu.css">
+     <link rel="stylesheet" href="CSS/materialize.min.css">
+      <link rel="stylesheet" href="leaflet/leaflet.css" rel="stylesheet">
+      <link href="CSS/Oefn.css" type="text/css" rel="stylesheet">   
+</head>
+
+<body>
+    <header>
+<nav>
+<ul class="hoofdnav" id="Navigatie">
+    <li><a href="Vissersplaatsen.html">Vissersplaatsen</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Parkeerplaatsen.html">Parkeerplaatsen</a></li>
+    <li><a href="weer.html">Weer</a></li>
+    <li><a href="Soorten.html">Soort vis</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li class="icon">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="showMenu()">☰</a>
+    </li>
+</ul>
+        </nav>
+</header>
+
+<div class = "grid__bp0-column-12 main">
+    <div class="grid__bp0-column-12">
+   <div id="mapid">
+    </div>
+    </div>
+    
+    
+    <div class="grid__bp0-column-12"> 
+    <p class = "grid__bp0-column-12 blok infoVPlaatshoofd" > De haven van gent heeft slechts enkele visserszones waar je mag gaan vissen. We lijsten ze hier voor U op.</p>
+    </div>
+    
+    <div class="grid__bp0-column-6">
+        <div class = "infoVPlaats" >
+            <h5>Lange&shybrugge&shykaai</h5>
+            <h6>Dicht bij een leuke haven.</h6>
+        </div>
+    </div>
+    
+    <div  class = "grid__bp0-column-6 ">
+    <img  class="foto" src="img/vissersplaatsen/Langerbruggekaai.jpg" alt="">
+    <p class = "AboveInfo">Langerbruggekaai</p>
+    </div>
+     
+    <div  class = "grid__bp0-column-6 ">
+    <img class="foto" src="img/vissersplaatsen/ringvaart.jpg" alt="">
+    <p class = "AboveInfo">Ringvaart</p>
+    </div>
+     <div  class = "grid__bp0-column-6 ">
+         <div class = "infoVPlaats" >
+             <h5>Ringvaart</h5>
+             <h6>Hier moet U wel opletten voor passerende schepen.</h6>
+         </div>
+    </div>
+    
+     <div class="grid__bp0-column-6">
+         <div class = "infoVPlaats" >
+             <h5>Moervaart&shykaai</h5>
+             <h6>Aan de rand  van het industrie gebied. Het is een rustiger gebied.</h6>
+         </div>
+    </div>
+    
+    <div  class = "grid__bp0-column-6 "> 
+    <img class="foto" src="img/vissersplaatsen/Moervaartkaai.jpg" alt="">
+    <p class = "AboveInfo">Moervaarkaai</p>
+    </div>
+    
+        <div  class = "grid__bp0-column-6"> 
+    <img class="foto" src="img/vissersplaatsen/terdonktkaai.jpg" alt="">
+    <p class = "AboveInfo">Terdonktkaai</p>
+    </div>
+        
+    <div class="grid__bp0-column-6">
+        <div class = "infoVPlaats" >
+            <h5>Terdonktkaai</h5>
+            <h6>Met zicht op de centrale, het veer, en nog meer ... Wel een drukker gebied</h6>
+        </div>
+    </div>
+    
+    
+    
+</div>
+
+    <footer>
+        <div class = "grid__bp0-column-12 bottom">
+            <a href="" class = grid__bp0-column-4 class = footera> <img src="img/Facebook.png" class = "footerimg" alt="" >facebook/EasyFishing</a>
+
+            <a href="" class = grid__bp0-column-4 class = footera> <img src="img/Twitter.png"  class = "footerimg" alt="">twitter/EasyFishing</a>
+
+            <a href="" class = grid__bp0-column-4 class = footera><img src="img/Instagram.png" class = "footerimg" alt="" >instagram/EasyFishing</a>
+
+        </div>
+    </footer>
+
+
+<script src = JS/main.js></script>
+ <script src="/JS/jquery-3.1.1.js"></script>
+    <script src="leaflet/leaflet.js"></script>
+    <script src="JS/VissersplaatsenJSON.js"></script>
+    <script src="JS/mapVisplaatsen.js"></script>  
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section>
+				<section>
+                    <h1> Wat is EasyFishing? </h1>
+                    <h4> Alexander Vlachakis & Matthias De Meyer</h4>
+                    </section>
+                    <section data-background="image/Logo_Invers_Color.png" data-background-repeat="repeat" data-background-size="200px">
+                        <h2> Briefing </h2>
+                        <p> We creëren een app die het vissers makkelijker maakt om te vissen rond de haven van Gent </p>
+                       <br>
+                        <p> Hiervoor geven we hun verschillende soorten informatie mee zoals de plaats, het weer en de soorten vissen die gevangen kunnen worden.</p>
+                    </section>
+                    <section>
+                    <h2> Wie? </h2>
+                    <p> Easy Fishing is bedoelt voor mensen die willen vissen in Gent.</p>
+                    <p> Niet enkel voor diegene die in Gent wonen. </p>
+                    </section>
+                    </section>
+                <section>
+                <section>
+                <h2> Analayse </h2>
+                <p> De bedoeling van de app is dat ze zo makkelijk mogelijk te gebruiken is. <br>
+                    We plaatsen alles zo groot mogelijk dat ook alles zichtbaar is voor oudere mensen. </p>
+                    <img src="image/Logo_Invers_Color.png" style="width:400px">
+                </section>
+                <section> 
+                    <h3> Persona Sheets </h3>
+                    <img src="image/Persona1.png" style="width:300px">
+                    <img src="image/Persona2.png"style="width:300px">
+                    <img src="image/Persona3.png"style="width:300px">
+                    </section>
+                    <section>
+                    <h3> IdeaBoard</h3>
+                    <img src="image/ideaBoard.png" style="width:375px">
+                    </section>
+                    <section>
+                    <h3> MoodBoard </h3>
+                    <img src="image/MoodBoard.png">
+                    </section>
+                      <section>
+                    <h3> Sitemap </h3>
+                    <img src="image/Sitemap.png" style="width:310px; transform: rotate(90deg); margin-top: 0px; ">
+                    </section>
+                    <section>
+                    <h3> WireFrames </h3>
+                    <img src="image/Wireframe%20Desktop2.png">
+                        <img src="image/Wireframe%20Mobile%20Weer.png">
+                    </section>
+                </section>
+                <section>
+                    <section >
+                    <h2> Welke Informatie delen we uit? </h2>
+                    <p> We delen verschillende soorten uit: 
+                    </p>
+                    </section>
+                <section> 
+                    <ul>
+                    <h2>Parkeerplaatsen</h2>
+                    <li>Dataset gehaald van data.stad.Gent </li>
+                    <li>Toont de mogelijke parkeerplaatsen <br> rond de haven van Gent</li>
+                    <li>JSON geïntegreerd in de site met Leaflet</li>
+                    </ul>
+                </section>
+                  <section>
+                    <ul>
+                    <h2>Vissersplaatsen</h2>
+                    <li>Op dezelfde manier als de parkeerplaatsen </li>
+                    <li>Dataset gehaald van data.stad.Gent </li>
+                    <li>JSON geïntegreerd in de site met Leaflet </li>
+                    </ul>
+                   
+                </section>  
+                     <section>
+                    <ul>     
+                    <h2>Het weer</h2>
+                    <li>Op dezelfde manier als de parkeerplaatsen </li>
+                    <li>Dataset gehaald van data.stad.Gent </li>
+                    <li>JSON geïntegreerd in de site met Leaflet </li>
+                    </ul>    
+                </section>  
+                      <section data-background="image.png" data-background-repeat="repeat" data-background-size="100px">
+                    <ul>  
+                    <h2> Soorten vissen</h2>   
+                    <li> Bekendste vissen worden getoond</li>
+                    <li> Korte informatie met fotoslides</li>
+                    <li> Link naar Wikipedia is beschikbaar</li>
+                    </ul>
+                </section>  
+                </section>
+                 <section>
+                <section> 
+                <ul>
+                <h2> Werking van de app </h2>   
+                <li> Home & Menu </li>
+                <li> Verschillende Datasets </li>
+                <li> Soorten vissen en detailpagina </li>
+                <li> About Us</li>
+                </ul>    
+                </section>
+                     
+				<section data-background-video="image/Menu & Home.mp4">
+                </section>
+                <section data-background-video="image/Datasets_1.mp4">        
+                </section>
+                <section data-background-video="image/Fish-_1.mp4">        
+                </section>  
+                <section data-background-video="image/iNFO_1.mp4">        
+                </section>  
+                     </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+}
+img {
+   margin:auto;
+    max-height: 500px;
+}
+.bxslider { 
+  width: 100px;
+  background-color: #c41230;
+  background-size: cover;
+  position: relative;
+  border: 1px solid ;
+}
+.infoVPlaats {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1vw;
+    width: 100%;
+    background-color: rgb(107,165,31);
+    float: left;
+    font-size: 2vw;
+}
+.infoVPlaats a{
+      font-size: 2vw;
+        -webkit-transition: font-size 0.2s;
+     transition: font-size 0.2s;
+}
+.infoVPlaats a:hover{
+  font-size: 3vw;
+     font-weight: bold;
+    
+}
+.AboveInfoD{
+  padding:1%;
+    position: relative;
+    float: left;
+    width: 100 %;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(107,165,31);
+    margin-bottom: 2vw;
+    font-size: 3vw;
+          -webkit-transition: font-size 0.2s;
+     transition: font-size 0.2s;
+}
+.AboveInfoD:hover  {
+    font-size: 4vw;
+      font-weight: bold;
+    
+}
+
+a {
+    color: white;
+}   

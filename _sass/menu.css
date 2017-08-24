@@ -1,0 +1,52 @@
+body {
+  margin: 0; }
+
+ul hoofdnav {
+  life-style-type: none;
+  margin: 100px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1e468c; }
+  ul hoofdnav li {
+    float: left; }
+    ul hoofdnav li a {
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: 0.5s;
+      font-size: 14pt; }
+    ul hoofdnav li a:hover {
+      background-color: #f2f2f2;
+      color: #1e468c; }
+    ul hoofdnav li icon {
+      display: none; }
+  ul hoofdnav responsive {
+    position: relative; }
+    ul hoofdnav responsive li {
+      float: none;
+      display: inline; }
+      ul hoofdnav responsive li a {
+        display: block;
+        text-align: center; }
+
+@media screen and (max-width: 680px) {
+  ul hoofdnav Responsive {
+    position: relative; }
+    ul hoofdnav Responsive li:not(:first-child) {
+      float: none;
+      display: inline; }
+    ul hoofdnav Responsive icon {
+      postion: absolute;
+      right: 0;
+      top: 0;
+      float: right; }
+    ul hoofdnav Responsive a {
+      display: block;
+      text-align: center; }
+  ul hoofdnav li {
+    float: right;
+    display: inline-block; } }
+
+/*# sourceMappingURL=menu.css.map */

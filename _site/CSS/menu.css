@@ -1,12 +1,13 @@
 body {
   margin: 0; }
 
-ul .hoofdnav {
+ul hoofdnav {
   life-style-type: none;
-  margin: 0;
+  margin: 100px;
   padding: 0;
-  overflow: hidden; }
-  ul .hoofdnav li {
+  overflow: hidden;
+  background-color: #1e468c; }
+  ul hoofdnav li {
     float: left a;
       float-display: inline-block;
       float-color: #fff;
@@ -15,35 +16,35 @@ ul .hoofdnav {
       float-text-decoration: none;
       float-transition: 0.5s;
       float-font-size: 14pt; }
-    ul .hoofdnav li a:hover {
+    ul hoofdnav li a:hover {
       background-color: #f2f2f2;
       color: #1e468c; }
-    ul .hoofdnav li icon {
+    ul hoofdnav li icon {
       display: none; }
-  ul .hoofdnav responsive {
+  ul hoofdnav responsive {
     position: relative; }
-    ul .hoofdnav responsive li {
+    ul hoofdnav responsive li {
       float: none;
       display: inline; }
-      ul .hoofdnav responsive li a {
+      ul hoofdnav responsive li a {
         display: block;
         text-align: center; }
 
 @media screen and (max-width: 680px) {
-  ul .hoofdnav Responsive {
+  ul hoofdnav Responsive {
     position: relative; }
-    ul .hoofdnav Responsive li:not(:first-child) {
+    ul hoofdnav Responsive li:not(:first-child) {
       float: none;
       display: inline; }
-    ul .hoofdnav Responsive icon {
+    ul hoofdnav Responsive icon {
       postion: absolute;
       right: 0;
       top: 0;
       float: right; }
-    ul .hoofdnav Responsive a {
+    ul hoofdnav Responsive a {
       display: block;
       text-align: center; }
-  ul .hoofdnav li {
+  ul hoofdnav li {
     float: right;
     display: inline-block; } }
 

@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(97,130,216);
+    font-family: Arial;
+    color: rgb(255,255,255)
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+
+nav{
+    z-index: 2;
+    position: absolute;
+}
+.head{
+    background-color: rgb(30,70,140);
+    font-weight: 100;
+    margin: 0 0 2% 0;
+}
+.main{
+    align-content: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+
+.bottom{
+    background-color: rgb(30,70,140);
+    align-self: baseline;
+    font-size: 7pt;
+   padding:0;
+}
+.uitleg{
+    margin:auto;
+    margin-top: 12vw;
+    margin-bottom: 70px;
+}
+.div__uitleg{
+    background-color: rgb(107,165,31);
+    height:35vw;
+    width: 35vw;
+    align-content: center;
+    padding: auto;
+    margin-left: 30px;
+
+}
+
+.img__home{
+    height:35vw;
+    width: 35vw;
+    margin-right: 30px;
+}
+
+.div__warning{
+    background-color: rgb(222,133,38);
+    margin: 2% 0;
+
+}
+
+.blok{
+    background-color: rgb(107,165,31);
+    height:auto;
+    align-content: center;
+    padding: auto;
+
+}
+ul.weerbericht
+{
+    background-color: rgb(107,165,31);
+    list-style: none;
+    align-content: center;
+    height: 15%;
+    margin: 1px;
+    padding:20px 2px 20px 2px;
+}
+.weervandaag{
+    margin:5px 0 10px 0;
+}
+
+
+.weericoon{
+
+}
+
+.AboveInfo{
+    z-index: 1;
+    opacity: 0.8;
+    background-color: rgb(97,130,216);
+    padding: 5%;
+    position: absolute;
+    text-align: center;
+    top : 40%;
+    left: 38%;
+    font-size : 2vw;
+    margin: auto;
+        -webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+}
+.AboveInfo:hover{
+    opacity: 1;
+    padding: 6%;
+    top : 38%;
+    left: 35.5%;
+    font-size: 2.5vw;
+}
+.AboveInfo>p {
+    font-size : 10vw;
+}
+.image {
+    position: relative;
+}
+.foto {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    float: left;
+    height : 45.083vw;
+}
+.infoVPlaats {
+    text-align: center;
+    margin: 0;
+    padding: 2.5%;
+    margin-top: 2%;
+    height : 45.083vw;
+    width: 100%;
+    background-color: rgb(107,165,31);
+    float: left;
+}
+.infoVPlaatshoofd {
+    text-align: center;
+    padding: 5%;
+    margin-top: 2%;
+    height : 20vw;
+}
+.LinkBelow{
+    font-size: 1.5vw;
+    padding-top:2%;
+    text-align: center;
+   color: white;
+}
+
+.Linkfoto{
+}
+.knop {
+    margin-left: 40%;
+    margin-top:10%;
+    float: left;
+    background-color: red;
+
+}
+.submitbutton{
+    color: rgb(255,255,255);
+    background-color: rgb(107,165,31);
+}
+
+
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    z-index: 2;
+}
+.fotoVis{
+        width: 100%;
+    float: left;
+    height :  45.083vw;
+}
+.AboveInfoVis{
+    z-index: 1;
+    opacity: 0.8;
+    background-color: rgb(97,130,216);
+    padding: 10%;
+    position: absolute;
+    text-align: center;
+    top : 27%;
+    left: 33%;
+    font-size : 2vw;
+    color:  rgb(255,255,255);
+    margin: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+}
+.AboveInfoVis:hover{
+    opacity: 1;
+    padding: 12%;
+    top : 22%;
+    left: 29.5%;
+    font-size: 2.5vw;
+        
+}
+.Slide{
+    width: 100%;
+}
+
+.footerimg{
+    width:4vw;
+    height:4vw;
+    float:left;
+}
+.footerimg a {
+    text-decoration: none;
+}
+.footera{
+    font-size: 4vw;
+}
+a {
+    color: white;
+}

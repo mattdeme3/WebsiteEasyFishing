@@ -1,57 +1,65 @@
 $Groen: #6ba51f;
 $Rood: #c41230;
-
+$Blauw_Blok: #7DBED4;
+$Geel: #C7C090;
 body{
     width: 100%;
 }
-img {
-   margin:auto;
-    max-height: 500px;
-}
+
 .bxslider { 
-  width: 100px;
-  background-color: $Rood;
-  background-size: cover;
-  position: relative;
-  border: 1px solid ;
+    width: 100px;
+    background-color: $Rood;
+    background-size: cover;
+    position: relative;
+    border: 1px solid;
+
+img {
+    width: 100%;
+    max-height: 500px;
+
 }
+    }
 .infoVPlaats {
     text-align: center;
     margin: 0;
     margin-bottom: 1vw;
-    width: 100%;
-    background-color: $Groen;
+    background-color: $Blauw_Blok;
     float: left;
     font-size: 2vw;
     
     a{
     font-size: 2vw;
-    -webkit-transition: font-size 0.2s;
-    transition: font-size 0.2s;
+    -webkit-transition: font-size 0.1s;
+    transition: font-size 0.1s;
     }
     
     a:hover{
     font-size: 3vw;
-    font-weight: bold;
     }
 }
-.AboveInfoD{
-  padding:1%;
-    position: relative;
-    float: left;
-    width: 100%;
-    margin: 0;
-    height: 8vw;
-    width: 100%;
-    background-color: $Groen;
-    margin-bottom: 2vw;
-    font-size: 2vw;
-          -webkit-transition: font-size 0.2s;
-            transition: font-size 0.2s;
+
+.back{
+    margin-bottom: 5%;
+    
+    p {
+        background-color:$Geel;
+        border-radius: 10px;
+    }
 }
-.AboveInfoD:hover  {
-    font-size: 3vw;
-      font-weight: bold;
+
+.AboveInfoD{
+    padding:1%;
+    position: relative;
+    margin: 0;
+    margin-bottom: 15%;
+    font-size: 2vw;
+    -webkit-transition: font-size 0.2s;
+    text-align: center;
+    margin-bottom:1vw;
+}
+
+.AboveInfoD:active  {
+    font-size: 2.5vw;
 }
 
 a {

@@ -1,15 +1,11 @@
 body {
-  background-color: #6182d8;
+  background-color: #FFF6CB;
   font-family: Arial;
   color: #FFF; }
 
 a {
   text-decoration: none;
-  color: #FFF;
-  padding: 0; }
-
-img {
-  width: 100%; }
+  color: #FFF; }
 
 p {
   text-align: center; }
@@ -17,7 +13,8 @@ p {
 nav {
   z-index: 2;
   position: absolute;
-  font-size: 5px; }
+  font-size: 5px;
+  background-color: #1e468c; }
 
 .head {
   background-color: #1e468c;
@@ -30,18 +27,16 @@ nav {
   margin-bottom: 50px; }
 
 .bottom {
-  background-color: #1e468c;
+  background-color: #6182d8;
   align-self: baseline;
   font-size: 7pt;
   padding: 0; }
 
 .uitleg {
-  margin: auto;
-  margin-top: 12vw;
-  margin-bottom: 70px; }
+  margin-top: 12vw; }
 
 .div__uitleg {
-  background-color: #6ba51f;
+  background-color: #6FA6BD;
   height: 35vw;
   width: 35vw;
   align-content: center;
@@ -54,8 +49,12 @@ nav {
   margin-right: 30px; }
 
 .div__warning {
-  background-color: #de8526;
-  margin: 2% 0; }
+  background-color: #C7C090;
+  margin: 2% 0;
+  padding: 1%;
+  border-radius: 10px; }
+  .div__warning p {
+    font-size: 18px; }
 
 .blok {
   background-color: #6ba51f;
@@ -76,52 +75,58 @@ ul .weerbericht {
 
 .AboveInfo {
   z-index: 1;
-  opacity: 0.8;
-  background-color: #6182d8;
-  padding-top: 22.5%;
+  opacity: 1;
+  background-color: #81C3DB;
+  padding-top: 15%;
   position: absolute;
   text-align: center;
   width: 50%;
   height: 50%;
   font-size: 2vw;
   margin: 25% 25% 0 22.5%;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out; }
 
 .AboveInfo:hover {
   opacity: 0;
-  font-size: 2.5vw; }
-
-.AboveInfo > p {
-  font-size: 10vw; }
+  font-size: 2.5vw;
+  width: 100%;
+  height: 100%;
+  margin: 0%; }
 
 .image {
   position: relative; }
 
 .foto {
   width: 100%;
-  float: left;
-  margin-top: 2%;
+  margin: 2% 0;
   float: left;
   height: 45.083vw; }
 
+.Logo {
+  width: 100%;
+  margin-top: 25%;
+  float: left; }
+
 .infoVPlaats {
   text-align: center;
-  margin: 0;
-  padding: 2.5%;
-  margin-top: 2%;
+  padding: 15% 2%;
+  margin: 2% 0;
   height: 45.083vw;
   width: 100%;
-  background-color: #6ba51f;
+  background-color: #81C3DB;
   float: left; }
+  .infoVPlaats p {
+    margin-top: 12vw; }
 
 .infoVPlaatshoofd {
   text-align: center;
   padding: 5%;
   margin-top: 2%;
-  height: 20vw; }
+  height: 20vw;
+  background-color: #6FA6BD; }
 
 .LinkBelow {
   font-size: 1.5vw;
@@ -137,24 +142,30 @@ ul .weerbericht {
 
 .submitbutton {
   color: #FFF;
-  background-color: #6ba51f; }
+  background-color: #6182d8; }
 
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+  background-color: #6182d8;
+  text-align: center;
+  padding: 0.5%; }
+  footer a {
+    font-size: 1vw;
+    text-align: left; }
 
 .fotoVis {
   width: 100%;
-  float: left;
-  height: 45.083vw; }
+  height: 45.083vw;
+  margin: 1% 0; }
 
 .AboveInfoVis {
   z-index: 1;
   opacity: 0.8;
-  background-color: #6182d8;
+  background-color: #81C3DB;
   padding: 10%;
   position: absolute;
   text-align: center;
@@ -165,29 +176,40 @@ footer {
   font-size: 2vw;
   color: #FFF;
   margin: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out; }
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out; }
 
 .AboveInfoVis:hover {
-  opacity: 1;
-  padding: 8%;
+  opacity: 0;
   font-size: 3.5vw;
-  width: 75%;
-  left: 12.5%; }
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%; }
 
 .Slide {
   width: 100%; }
 
 .footerimg {
-  width: 4vw;
-  height: 4vw;
+  width: 3vw;
+  height: 3vw;
   float: left; }
   .footerimg a {
-    text-decoration: none; }
+    text-decoration: none;
+    padding-top: 5%; }
 
-.footer a {
-  font-size: 4vw; }
+#mapid {
+  border: 2px solid;
+  border-radius: 25px; }
+
+.Info {
+  background-color: #C7C090;
+  width: 100%;
+  margin: 2% 0;
+  padding: 1%;
+  border-radius: 10px;
+  float: left; }
 
 /*# sourceMappingURL=main.css.map */
